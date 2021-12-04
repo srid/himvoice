@@ -31,6 +31,7 @@ executable himvoice
     , data-default
     , directory
     , filepath
+    , HaTeX
     , lens
     , megaparsec
     , monad-logger
@@ -42,9 +43,10 @@ executable himvoice
     , tagged
     , text
     , time
+    , unix
     , unliftio
+    , which
     , with-utf8
-    , HaTeX
 
   mixins:
     base hiding (Prelude),

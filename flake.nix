@@ -27,6 +27,7 @@
             modifier = drv:
               pkgs.haskell.lib.addBuildTools drv (with pkgs.haskellPackages;
               [
+                pkgs.texlive.combined.scheme-full
                 # Specify your build/dev dependencies here. 
                 cabal-fmt
                 cabal-install
