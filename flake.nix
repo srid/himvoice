@@ -1,7 +1,7 @@
 {
   description = "himvoice's description";
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/7dcd2f54b82826b05cfd91730a1d77b5d80f008c";
+    nixpkgs.url = "github:nixos/nixpkgs/56cbe42f1668338d05febfbb866e32f2c865609a";
     flake-utils.url = "github:numtide/flake-utils";
     flake-compat = {
       url = "github:edolstra/flake-compat";

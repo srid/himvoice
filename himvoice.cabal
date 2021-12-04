@@ -44,6 +44,7 @@ executable himvoice
     , time
     , unliftio
     , with-utf8
+    , HaTeX
 
   mixins:
     base hiding (Prelude),
