@@ -1,5 +1,5 @@
 {
-  description = "haskell-template's description";
+  description = "himvoice's description";
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/7dcd2f54b82826b05cfd91730a1d77b5d80f008c";
     flake-utils.url = "github:numtide/flake-utils";
@@ -17,7 +17,7 @@
         project = returnShellEnv:
           pkgs.haskellPackages.developPackage {
             inherit returnShellEnv;
-            name = "haskell-template";
+            name = "himvoice";
             root = ./.;
             withHoogle = false;
             overrides = self: super: with pkgs.haskell.lib; {
