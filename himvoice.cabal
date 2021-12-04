@@ -33,6 +33,7 @@ executable himvoice
     , filepath
     , HaTeX
     , lens
+    , matrix
     , megaparsec
     , monad-logger
     , mtl
